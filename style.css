@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100vh;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coluna {
+  width: 245px;
+  height: 245px;
+  border-radius: 50%;
+  background: rgb(166, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.interno {
+  width: 200px;
+  height: 800px;
+  border-radius: 50%;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text {
+  color: rgb(166, 255, 0);
+  font-size: 30px;
+}
+
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 25px;
+}
+
+
+button {
+  width: 100px;
+  font-weight: 800;
+  color: rgb(37, 37, 37);
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 10px;
+  height: 60px;
+  border-radius: 20%;
+  border: 2px solid rgb(166, 255, 0);
+  background-color: rgb(166, 255, 0);
+}
+button:hover {
+  background-color: rgb(34, 34, 34);
+  color: rgb(166, 255, 0);
+  cursor: pointer;
+}
